@@ -21,7 +21,7 @@ RUN useradd $user &&\
 USER $user
 WORKDIR $workdirectory
 
-ADD index.js .
+ADD server.js .
 
 RUN ls -l
 
